@@ -4,8 +4,6 @@ BinData provides a declarative way to read and write structured binary data.
 
 This means the programmer specifies what the format of the binary data is, and BinData works out how to read and write data in this format. It is an easier (and more readable) alternative.
 
-[![Build Status](https://github.com/spider-gazelle/bindata/actions/workflows/CI.yml/badge.svg?branch=master)](https://github.com/spider-gazelle/bindata/actions/workflows/CI.yml)
-
 ## Usage
 
 Firstly, it's recommended that you specify the datas endian.

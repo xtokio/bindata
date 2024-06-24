@@ -29,7 +29,8 @@ abstract class BinData
 
   class ParseError < CustomException
     def initialize(@klass, @field, ex : Exception)
-      super("Failed to parse #{klass}.#{field}", ex)
+      # When "Closed stream" it won't be able to continue parsing
+      # super("Failed to parse #{klass}.#{field}", ex)
     end
   end
 
